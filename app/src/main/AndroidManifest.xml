@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sgamovil20">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logozgas"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/zetagas"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".traspaso_recepcion"></activity>
+        <activity android:name=".traspaso_envio" />
+        <activity android:name=".salidaporotrosconceptos" />
+        <activity android:name=".entradaporotrosconceptos" />
+        <activity android:name=".inspeccion_editar_qr" />
+        <activity android:name=".inspeccion_editar" />
+        <activity android:name=".inspeccion" />
+        <activity android:name=".recibo_editar_recepcion_qr" />
+        <activity android:name=".recibo_editar_recepcion" />
+        <activity android:name=".recibodeproductos" />
+        <activity android:name=".web" />
+        <activity android:name=".aMenu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

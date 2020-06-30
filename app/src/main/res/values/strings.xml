@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SGAMovil2.0</string>
+
+    <string name="msg_ingreso">Bienvenido</string>
+    <string name="lbl_usuario">Usuario</string>
+    <string name="lbl_password">Contraseña</string>
+    <string name="lbl_entrar">ENTRAR</string>
+
+    <string name="lbl_Menu">Menu</string>
+    <string name="lbl_Recibo">Recibo de Producto</string>
+    <string name="lbl_Inspeccion">Inspeccion de Productos</string>
+    <string name="lbl_Entradas">Entrada por Otros Conceptos</string>
+    <string name="lbl_Salidas">Salidas por Otros Conceptos</string>
+    <string name="lbl_Inv_Art">Inventario por Articulo</string>
+    <string name="lbl_Inv_Ubi">Inventario por Ubicacion</string>
+    <string name="lbl_Envio">Traspaso de Envio</string>
+    <string name="lbl_Recepcion">Traspaso de Recepcion</string>
+    <string name="lbl_Salir">Salir</string>
+
+    <string name="lbl_Recibo_Titulo">Titulo principal</string>
+    <string name="lbl_Recibo_Fecha">Fecha</string>
+    <string name="lbl_Recibo_Archivo">Archivo</string>
+
+    <string name="lbl_Recepcion_Codigo">Codigo</string>
+    <string name="lbl_Recepcion_Producto">Producto</string>
+    <string name="lbl_Recepcion_Cajas">Cajas</string>
+    <string name="lbl_Recepcion_CantidadCaja">Cantidad/Caja</string>
+
+
+    <!-- RECIBO EDITAR -->
+    <string name="lbl_Recibo_Editar_Navegacion">Recibo/Recepcion</string>
+    <string name="lbl_Recibo_Editar_bt_Grabar">GRABAR</string>
+    <string name="lbl_Recibo_Editar_bt_Cancelar">CANCELAR</string>
+    <string name="lbl_Recibo_Editar_bt_Escanear">ESCANEAR QR</string>
+
+    <string name="lbl_Recibo_Editar_lbl_Folio">Folio:</string>
+    <string name="lbl_Recibo_Editar_lbl_Fecha">Fecha:</string>
+    <string name="lbl_Recibo_Editar_txt_Codigo">Codigo QR</string>
+
+
+    <!-- INSPECCION EDITAR -->
+    <string name="lbl_Inspeccion_Editar_Navegacion">Recibo/Inspeccion</string>
+    <string name="lbl_Inspeccion_Editar_bt_Grabar">GRABAR</string>
+    <string name="lbl_Inspeccion_Editar_bt_Cancelar">CANCELAR</string>
+    <string name="lbl_Inspeccion_Editar_bt_Escanear">ESCANEAR CODIGO</string>
+
+    <string name="lbl_Inspeccion_Editar_lbl_Folio">Folio:</string>
+    <string name="lbl_Inspeccion_Editar_lbl_Fecha">Fecha:</string>
+    <string name="lbl_Inspeccion_Editar_txt_Codigo">Codigo</string>
+
+</resources>

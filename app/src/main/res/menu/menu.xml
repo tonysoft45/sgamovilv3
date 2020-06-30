@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnMore"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/lbl_Menu"
+        app:showAsAction="always">
+
+        <menu>
+            <group android:id="@+id/grp1">
+                <item
+                    android:id="@+id/mnu_Recbo"
+                    android:title="@string/lbl_Recibo" />
+
+                <item
+                    android:id="@+id/mnu_Inspeccion"
+                    android:title="@string/lbl_Inspeccion" />
+            </group>
+
+            <group android:id="@+id/grp2">
+
+
+                <item
+                    android:id="@+id/mnu_Entrada"
+                    android:title="@string/lbl_Entradas" />
+
+                <item
+                    android:id="@+id/mnu_Salida"
+                    android:title="@string/lbl_Salidas" />
+
+            </group>
+
+
+
+            <group android:id="@+id/grp4">
+
+
+                <item
+                    android:id="@+id/mnu_Envio"
+                    android:title="@string/lbl_Envio" />
+
+                <item
+                    android:id="@+id/mnu_Recepcion"
+                    android:title="@string/lbl_Recepcion" />
+            </group>
+
+            <group android:id="@+id/grp5">
+
+
+                <item
+                    android:id="@+id/mnu_Salir"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"
+                    android:title="@string/lbl_Salir" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
